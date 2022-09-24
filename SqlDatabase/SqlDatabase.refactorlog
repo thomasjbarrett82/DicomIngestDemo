@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="8fbc1d30-2d45-45a3-8518-3e216f79c35b" ChangeDateTime="09/22/2022 09:00:19">
+    <Property Name="ElementName" Value="[dbo].[DicomFile].[MediaStorageSopClassUId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DicomFile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MediaStorageSopClassUid" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c5150a2d-36a6-4765-9f01-5c7b6cd486a0" ChangeDateTime="09/22/2022 09:01:03">
+    <Property Name="ElementName" Value="[dbo].[DicomFile].[MediaStorageSopClassUid]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DicomFile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SopClassUid" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2cbdc17d-8334-4013-a53d-b4daacf4fc72" ChangeDateTime="09/22/2022 09:01:07">
+    <Property Name="ElementName" Value="[dbo].[DicomFile].[MediaStorageSopInstanceUid]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DicomFile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SopInstanceUid" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="68a3141f-4bc1-4211-b2fb-1c15490be68d" ChangeDateTime="09/22/2022 11:13:04">
+    <Property Name="ElementName" Value="[dbo].[IngestHistory].[ElapsedTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[IngestHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ElapsedTimeMilliseconds" />
+  </Operation>
+</Operations>
